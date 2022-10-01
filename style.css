@@ -11,11 +11,13 @@ a {
     text-decoration: none;
 }
 .root {
-    max-width: 1360px;
+    position: relative;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .nav-bar-container {
-    padding: 20px;
+    position: sticky;
+    padding: 0 20px;
 }
 .nav-bar {
     display: flex;
@@ -23,6 +25,7 @@ a {
     align-items: center;
     width: 100%;
     z-index: 15;
+    margin: 20px 0 10px 0;
 }
 .logo-container {
     cursor: pointer;
@@ -81,21 +84,9 @@ a {
 .resume-button:hover {
     background-color: #63d3ff40;
 }
-.footer-container {
-    display: flex;
-    justify-content: center;
-}
-.footer {
-    color: #777777;
-}
-.footer:hover {
-    color: #63d2ff;
-}
 .right-float-container {
-    position: sticky;
-    float: right;
+    position: fixed;
     right: 20px;
-    left: auto;
     z-index: 10;
 }
 .social-link-container {
@@ -105,8 +96,24 @@ a {
     list-style: none;
 }
 .social-link {
-    margin: 20px;
+    margin: 20px 0 0 0;
 }
 svg:hover {
     fill: #63d2ff;
+}
+.content-container {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.footer-container {
+    padding: 0 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    color: #777777;
+}
+.footer:hover {
+    color: #63d2ff;
 }
