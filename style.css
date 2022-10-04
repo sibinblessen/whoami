@@ -246,6 +246,10 @@ svg:hover {
     background-color: #575a5e40;
 }
 
+.work-container {
+    padding-top: 80px;
+}
+
 .blank-space {
     height: 800px;
 }
