@@ -170,13 +170,13 @@ svg:hover {
 }
 
 .profile-pic-blur {
-	position: absolute;
+    position: absolute;
     background: url('src/profile_pic.png');
     width: 100%;
     opacity: 80%;
-	top: 0px;
-	bottom: 0px;
-	box-shadow: inset 0px 0px 80px 10px #08090a;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: inset 0px 0px 80px 10px #08090a;
     border-radius: 50%;
 }
 
@@ -253,6 +253,25 @@ svg:hover {
 .experience-container {
     padding-top: 80px;
 }
+
 .blank-space {
     height: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0d0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #63d2ff40;
+    padding: 1px;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #63d2ff60;
 }
